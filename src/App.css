@@ -1,0 +1,73 @@
+.login-button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+}
+.login-button>div{
+    margin-left: 10px;
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+}
+.menu-area{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.menu-list{
+    display: flex;
+    list-style-type: none;
+}
+.menu-list li {
+    padding: 10px;
+}
+.search-box{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+.search-icon{
+    position: absolute;
+    left: 5px;
+}
+.search-box>input{
+    outline: none;
+    border: none;
+    border-bottom: 3px solid gray;
+    padding-left: 25px;
+    
+}
+.card-effect{
+    background-color: white;
+}
+.card-effect:hover{
+    scale: 110%;
+}
+.img-area{
+    max-width: 300px;
+}
+.login-box{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail-area{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+   
+}
+.add-area{
+    display: flex;
+    justify-content: space-between;
+    max-width: 250px;
+    align-items: center;
+}
+.add-area>button{
+    width: 100px;
+
+}
